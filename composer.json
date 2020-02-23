@@ -1,0 +1,33 @@
+{
+	"name": "vunamhung/regenerate-thumbnails",
+	"description": "This is a regenerate thumbnails package for WordPress",
+	"keywords": [
+		"wordpress",
+		"toolkit"
+	],
+	"homepage": "https://github.com/vunamhung/regenerate-thumbnails",
+	"license": "GPL-3.0+",
+	"support": {
+		"issues": "https://github.com/vunamhung/regenerate-thumbnails/issues",
+		"source": "https://github.com/vunamhung/regenerate-thumbnails"
+	},
+	"authors": [
+		{
+			"name": "Vu Nam Hung",
+			"email": "vunamhung@gmail.com",
+			"homepage": "https://github.com/vunamhung/",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"autoload": {
+		"files": [
+			"Regenerate_Thumbnails.php"
+		],
+		"psr-4": {
+			"vnh\\": "."
+		}
+	}
+}
